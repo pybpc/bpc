@@ -1,0 +1,12 @@
+[submodule "vendor/vermin"]
+	path = vendor/vermin
+	url = https://github.com/netromdk/vermin.git
+[submodule "vendor/walrus"]
+	path = vendor/walrus
+	url = https://github.com/JarryShaw/walrus.git
+[submodule "vendor/poseur"]
+	path = vendor/poseur
+	url = https://github.com/JarryShaw/poseur.git
+[submodule "vendor/f2format"]
+	path = vendor/f2format
+	url = https://github.com/JarryShaw/f2format.git
