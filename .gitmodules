@@ -10,3 +10,6 @@
 [submodule "vendor/f2format"]
 	path = vendor/f2format
 	url = https://github.com/JarryShaw/f2format.git
+[submodule "vendor/utils"]
+	path = vendor/utils
+	url = https://github.com/pybpc/bpc-utils.git

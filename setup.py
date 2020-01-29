@@ -19,11 +19,11 @@ __version__ = '0.0.0.dev0'
 
 # set-up script for pip distribution
 setup(
-    name='python-babel',
+    name='pybpc',
     version=__version__,
     author='Jarry Shaw',
     author_email='jarryshaw@icloud.com',
-    url='https://github.com/JarryShaw/babel',
+    url='https://github.com/pybpc/bpc',
     license='MIT License',
     keywords=['back-port compiler'],
     description='The compiler for next generation Python.',
@@ -31,10 +31,10 @@ setup(
     long_description_content_type='text/x-rst; charset=UTF-8',
     # python_requires='>=3.3',
     zip_safe=True,
-    py_modules=['babel'],
+    py_modules=['bpc'],
     # entry_points={
     #     'console_scripts': [
-    #         'babel = babel:main',
+    #         'bpc = bpc:main',
     #     ]
     # },
     package_data={

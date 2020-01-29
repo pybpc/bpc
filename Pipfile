@@ -1,10 +1,20 @@
 [[source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[[source]]
+name = "sjtu"
+url = "https://mirrors.sjtug.sjtu.edu.cn/pypi/web/simple"
+verify_ssl = true
+
+[[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-python-babel = {editable = true,path = "."}
+pybpc = {editable = true,path = "."}
 autopep8 = "*"
 codecov = "*"
 coverage = "*"
@@ -15,4 +25,4 @@ sphinx = "*"
 [packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
