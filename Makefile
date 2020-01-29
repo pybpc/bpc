@@ -48,3 +48,10 @@ pypi-upload:
 	twine check dist/* || true
 	twine upload dist/* -r pypi --skip-existing
 	# twine upload dist/* -r pypitest --skip-existing
+
+sync:
+	cd vendor/f2format && git pull
+	cd vendor/poseur && git pull
+	cd vendor/utils && git pull
+	cd vendor/vermin && git pull
+	cd vendor/walrus && git pull

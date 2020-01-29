@@ -1,7 +1,0 @@
-{
-    "restructuredtext.confPath": "${workspaceFolder}/docs/conf.py",
-    "cSpell.words": [
-        "pybpc"
-    ],
-    "python.pythonPath": ".venv/bin/python3.8"
-}
