@@ -14,15 +14,23 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pybpc = {editable = true,path = "."}
+bpc = {editable = true,path = "."}
 autopep8 = "*"
-codecov = "*"
-coverage = "*"
-doc8 = "*"
+bandit = "*"
+mypy = "*"
 pylint = "*"
+ipython = "*"
+coverage = "*"
+codecov = "*"
 sphinx = "*"
+rstcheck = "*"
 
 [packages]
+bpc-f2format = "*"
+bpc-poseur = "*"
+bpc-walrus = "*"
+bpc-utils = "*"
+vermin = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "*"
